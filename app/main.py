@@ -60,7 +60,6 @@ async def main() -> None:
             ])
         )
 
-    # asyncio.gather(wake_up(), sleep())
     await wake_up()
     await sleep()
 
